@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <RootNamespace>SentryTower</RootNamespace>
+        <Configurations>Debug;Release</Configurations>
+        <Nullable>enable</Nullable>
+        <AssemblyName>SentryTower</AssemblyName>
+        <LangVersion>latest</LangVersion>
+        <Optimize>False</Optimize>
+        <DebugType>embedded</DebugType>
+    </PropertyGroup>
+    <ItemGroup>
+      <None Remove="Assets\AirLeak-Icon.png" />
+      <None Remove="Assets\BiggerLeaks-Icon.png" />
+      <None Remove="Assets\ExplosiveTipped-Icon.png" />
+      <None Remove="Assets\FasterIdentification-Icon.png" />
+      <None Remove="Assets\HeatedNails-Icon.png" />
+      <None Remove="Assets\InfraredTargeting-Icon.png" />
+      <None Remove="Assets\MoabRips-Icon.png" />
+      <None Remove="Assets\PlasmaSentry.png" />
+      <None Remove="Assets\SharedCameras-Icon.png" />
+      <None Remove="Assets\ShatteringNails-Icon.png" />
+      <None Remove="Assets\ShredingNails-Icon.png" />
+      <None Remove="Assets\SmartTargeting-Icon.png" />
+      <None Remove="Assets\SuperDrop-Icon.png" />
+      <None Remove="Assets\SupportDrop-Icon.png" />
+      <None Remove="Assets\TheBigRip-Icon.png" />
+      <None Remove="Assets\TrackingNails-Icon.png" />
+    </ItemGroup>
+
+    <Import Project="..\btd6.targets" />
+</Project>
