@@ -253,7 +253,7 @@ public class SupportDrop : ModUpgrade<Sentry>
 
     public override void ApplyUpgrade(TowerModel towerModel)
     {
-        var SupportDrop = Game.instance.model.GetTower(TowerType.BombShooter, 0, 4, 0).GetAbilities()[0];
+        var SupportDrop = Game.instance.model.GetTower(TowerType.BombShooter, 0, 4, 0).GetAbilities()[0].Duplicate();
         
 
         AttackModel[] sentry = { Game.instance.model.GetTowerFromId("EngineerMonkey-200").GetAttackModels().First(a => a.name == "AttackModel_Spawner_").Duplicate() };

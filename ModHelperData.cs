@@ -2,8 +2,8 @@ namespace SentryTower;
 
 public static class ModHelperData
 {
-    public const string WorksOnVersion = "35";
-    public const string Version = "1.0.0";
+    public const string WorksOnVersion = "41";
+    public const string Version = "1.0.1";
     public const string Name = "SentryTower";
 
     public const string Description = "Adds the engineers sentry as a tower";
